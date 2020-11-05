@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css & bootstrap-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid bit-bg">
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h1 class="title">8-bit Academy</h1>
+                <img src="img/ghost.png" alt="ghost" width="50px" height="50px" id="ghost">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h1 class="title">Send us a message!</h1>
+                <p>Curious to start creating youre own games? Want to know more about our academy? 
+                    Send us a message! We have developers and teachers that will reply your message
+                    regardless of your level!
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-group">
+                        <label for="email" class="title">E-mail address</label>
+                        <input type="email" class="form-control" id="email" placeholder="e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" class="title">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type='submit' class="btn btn-danger" id="launch"><img src="img/rocket.png" id="rocket"></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm text-center">
+                <img src="img/mario.png" alt="mario" width="50px" height="50px" id="mario" >
+            </div>
+        </div>
+    </div>
+    <!-- anime.js and js scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" 
+    integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" 
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
